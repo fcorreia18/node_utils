@@ -28,7 +28,7 @@ async function changeExtensionToMp4(dirname){
     }
 }
 
-
+//optional way to implement the function 
 function changeExtension(dir) {
     fs.readdir(dir, (err, files) => {
       if (err) {
